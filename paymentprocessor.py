@@ -22,6 +22,7 @@ class PaymentProcessor:
     def check_balance(self, credit_card):
         if not self.card_database.check_credit_card_in_database(credit_card):
             print("New git statement version 2")
+	    print("Hello I am new here v3")
             print("Card does not exists in database")
             return False
         
