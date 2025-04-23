@@ -7,7 +7,7 @@ class PaymentProcessor:
 
     def validate_card_number(self, card_number):
         is_valid = True
-	print("Hello I have been newly inserted")        
+	print("Hello I have been newly inserted version 2")        
         if not card_number.isdigit():
             is_valid = False
 
